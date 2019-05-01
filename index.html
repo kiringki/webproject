@@ -2,18 +2,57 @@
 <html>
 <head>
   <title>Giraffes</title>
+  <h1><a href="index.html" style = "color:brown;text-decoration:none" >Giraffes</a></h1>
 
-  <h1><a href="index.html">Giraffes</a></h1>
-  
-  <a href="index.html"><img src="giraffe.jpg" width="20%" height="50%"></a> <br>
+  <style>
+  a{
+    color:black;
+  }
+
+  h1{
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .box{
+    font-size: 30px;
+    border: 5px solid gray;
+    display:grid;
+    width:150px;
+    height:200px;
+    padding:5px;
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 250px 1000px;
+    align-items: center;
+  }
+
+  </style>
 
 </head>
 
 <body>
-  <a href="1.html"><li>1. head</li> </a>
-  <a href="2.html"><li>2. body</li> </a>
-  <a href="3.html"><li>3. tail</li> </a>
+  <div id = "grid">
 
+    <div class="box">
+      <a href="1.html" title = "Head page"><li>1. Head</li> </a>
+      <a href="2.html" title = "Body page"><li>2. Body</li> </a>
+      <a href="3.html" title = "Tail page"><li>3. Tail</li> </a>
+    </div>
+
+    <div><a href="index.html"><img src="giraffe.jpg" width="20%" height="50%"></a></div>
+  </div>
+
+
+  <div>
+      <h3>What's your choice?</h3>
+      < I
+      <input type="button" value="love" onclick="alert('기린을 좋아하시는군요 :-)')">
+      <input type="button" value="hate" onclick="alert('기린을 싫어하시는군요 :-(')">
+      Giraffes! >
+  </div>
 
   <p><strong>The giraffe (Giraffa)</strong> is a genus of African even-toed ungulate mammals,
     the tallest living terrestrial animals and the largest ruminants. Taxonomic classifications
